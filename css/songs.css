@@ -1,0 +1,16 @@
+.song-table {
+    width: 100%;
+    min-width: 560px;
+    border-collapse: collapse;
+}
+
+.song-table th, .song-table td {
+    text-align: left;
+    padding: 14px 12px;
+    border-bottom: 1px solid #f3f6f3;
+}
+
+/* Alternate row colors with a pseudo-class */
+.song-table tr:nth-child(even) {
+    background: #a4a5a4;
+}
